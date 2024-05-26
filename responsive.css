@@ -1,0 +1,125 @@
+@media (max-width: 1100px) {
+    /* Detail Bar  */
+    .location_bar{
+        justify-content: center;
+    }
+    .location_bar p{
+        font-size: 1rem;
+    }
+    .location_bar_2_p{
+        font-size: 1rem;
+
+    }
+    /* Detail Bar  Closed*/
+}
+
+@media (max-width: 770px){
+    /* Detail Bar  */
+    .location_bar p{
+        font-size: .9rem;
+    }
+    .location_bar_2_p{
+        font-size: .9rem;
+
+    }
+    /* Detail Bar  Closed*/
+
+    /* Navigation Bar  */
+    .humburger{
+        text-align: right;
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        text-align: right;
+        margin-left: 30vw;
+    }
+    
+    /* Navigation Bar  Closed*/
+
+    /* Banner Open  */
+    .banner_btns {
+        width: 100%;
+    }
+    .banner_btns button{
+        width: 60%;
+    }
+    .banner_forms{
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    
+    /* Banner 6 open  */
+    .banner_6_form{
+        width: 80%;
+        margin: 60px 30px;
+    }
+    .input{
+        height: 40px;
+    }
+    .text_area{
+        height: 200px;
+    }
+    
+    /* Banner 6 open  */
+}
+
+@media (max-width: 560px){
+    /* Detail Bar  */
+    .location_bar p{
+        font-size: .7rem;
+    }
+    .location_bar_2_p{
+        font-size: .7rem;
+    }
+    /* Detail Bar  Closed*/
+
+    /* Banner 3 Card Open  */
+    .card_title{
+        font-size: 1.3rem;
+    }
+    .card_text{
+        font-size: 1.1rem;
+    }
+    .card_text_address{
+        font-size: 1rem;
+    }
+    .card_rooms p{
+        font-size: .9rem;
+    }
+    .book a{
+        font-size: .8rem;
+    }
+    /* Banner 3 Closed  */
+
+    /* Banner 4 Open  */
+    .banner_4_cards{
+        justify-content: center;
+        align-items: center
+    }
+    .banner_4_card{
+        width: 100%;
+        margin-bottom: 2%;
+        /* margin-left: 6%; */
+        display: inline-block;
+    }
+    /* Banner 4 Closed  */
+
+    
+    /* Banner 6 open  */
+    .banner_6_form{
+        width: 80%;
+        margin: 60px 30px;
+    }
+    .input{
+        height: 40px;
+    }
+    .text_area{
+        height: 200px;
+    }
+    
+    /* Banner 6 open  */
+}

@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <div class="main">
+
+        <!-- Detail Bar -->
+        <div class="container-fluid">
+            <div class="row location_bars">
+                <div class="location_bar col-lg-6 col-12 " >
+                    <p ><i class="fa-solid fa-phone"></i> +92 301 2865 213</p>
+                    <p ><i class="fa-solid fa-envelope"></i> munirarham70@gmail.com</p>
+                </div>
+                <div class="location_bar location_bar_2 col-lg-6 d-md-block d-none">
+                    <p class="location_bar_2_p "><i class="fa-solid fa-location-dot "></i> 6391 Elgin St. Celina, 10299</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detail Bar Closed -->
+
+        <!-- Navigation Bar -->
+        <div class="container-fluid py-1 nav_bar" >
+            <div class="row" >
+                <div class="logo_div col-md-3 col-6 image-fluid px-4">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="navigation_links_bar col-md-5 d-md-flex d-none" >
+                    <ul class="navigation_links">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Home
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Home One</a></li>
+                              <li><a class="dropdown-item" href="#">Home Two</a></li>
+                              <li><a class="dropdown-item" href="#">Home Three</a></li>
+                            </ul>
+                          </div>
+                          <div class="dropdown">
+                            <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Pages One</a></li>
+                              <li><a class="dropdown-item" href="#">Pages One</a></li>
+                              <li><a class="dropdown-item" href="#">Pages Two</a></li>
+                              <li><a class="dropdown-item" href="#">Pages Four</a></li>
+                              <li><a class="dropdown-item" href="#">Pages Five</a></li>
+                              <li><a class="dropdown-item" href="#">Pages Six</a></li>
+                            </ul>
+                          </div>
+                          <div class="dropdown">
+                            <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Project
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Projects One</a></li>
+                                <li><a class="dropdown-item" href="#">Projects One</a></li>
+                                <li><a class="dropdown-item" href="#">Projects Two</a></li>
+                                <li><a class="dropdown-item" href="#">Projects Four</a></li>
+                            </ul>
+                          </div>
+                          <div class="dropdown">
+                            <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blogs One</a></li>
+                                <li><a class="dropdown-item" href="#">Blogs One</a></li>
+                                <li><a class="dropdown-item" href="#">Blogs Two</a></li>
+                                <li><a class="dropdown-item" href="#">Blogs Four</a></li>
+                                <li><a class="dropdown-item" href="#">Blogs Five</a></li>
+                                <li><a class="dropdown-item" href="#">Blogs Six</a></li>
+                            </ul>
+                          </div>    
+                          <a href="#">Contact</a>
+                    </ul>
+                </div>
+                <div class="navigation_btns col-md-4 col-6" >
+                    <div class="navigation_btns1  d-md-none d-lg-none d-flex">
+                        <a class="humburger" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars"></i>
+                          </a>
+                          
+                          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header ">
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="navigation_links_bar col-md-5 d-flex" >
+                                <ul class="navigation_links">
+                                    <div class="dropdown">
+                                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Home
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Home One</a></li>
+                                          <li><a class="dropdown-item" href="#">Home Two</a></li>
+                                          <li><a class="dropdown-item" href="#">Home Three</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="dropdown">
+                                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Pages
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Pages One</a></li>
+                                          <li><a class="dropdown-item" href="#">Pages One</a></li>
+                                          <li><a class="dropdown-item" href="#">Pages Two</a></li>
+                                          <li><a class="dropdown-item" href="#">Pages Four</a></li>
+                                          <li><a class="dropdown-item" href="#">Pages Five</a></li>
+                                          <li><a class="dropdown-item" href="#">Pages Six</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="dropdown">
+                                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Project
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Projects One</a></li>
+                                            <li><a class="dropdown-item" href="#">Projects One</a></li>
+                                            <li><a class="dropdown-item" href="#">Projects Two</a></li>
+                                            <li><a class="dropdown-item" href="#">Projects Four</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="dropdown">
+                                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Blog
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Blogs One</a></li>
+                                            <li><a class="dropdown-item" href="#">Blogs One</a></li>
+                                            <li><a class="dropdown-item" href="#">Blogs Two</a></li>
+                                            <li><a class="dropdown-item" href="#">Blogs Four</a></li>
+                                            <li><a class="dropdown-item" href="#">Blogs Five</a></li>
+                                            <li><a class="dropdown-item" href="#">Blogs Six</a></li>
+                                        </ul>
+                                      </div>    
+                                      <a href="#">Contact</a>
+                                </ul>
+                            </div>
+                            </div>
+                          </div>
+                    
+                    </div>
+                    <div class="navigation_btns2 d-md-flex d-none">
+                        <a href="#" class="btn btn-outline-secondary btn-sm">SELL PROPERTY <i class="fa-solid fa-arrow-right" style="color: #FA831F;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Bar Closed  -->
+
+        <!-- Banner Open  -->
+        <div class="container-fluid">
+            <div class="row banner_container">
+                <div class="col-md-6 col-12 banner_container_1" >
+                    <div class="banner_upper_heading">
+                        <p>FINTECH FUSION</p>
+                    </div>
+                    <div class="banner_middle_heading">
+                        <p>Invest today in <br> Your <span style="color: #FA831F;;"> Dream House </span></p>
+                    </div>
+                    
+                    <div class="banner_lower_heading">
+                        <p>Unlock the Power of Real Estate Making Your Real Estate Dreams a Reality Real Estate here Unlock the Power of Real Estate</p>
+                    </div>
+
+                    <div class="btn-group banner_btns" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn" style="border-radius: none; background-color: #FA831F; color: white; border: none;">Rent</button>
+                        <button type="button" class="btn ">Buy</button>
+                        <button type="button" class="btn ">Sell</button>
+                      </div>
+
+                      <div class="banner_forms">
+                        <div class="row g-3 row-cols-4">
+                            <div class="col col-md-3 col-12">
+                              <input type="text" class="form-control form-select-lg" placeholder="Enter Keyword" aria-label="First name">
+                            </div>
+
+                            <div class="col col-md-3 col-12 banner_form_input">
+                                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                                    <option selected>Apartment</option>
+                                    <option value="1">House</option>
+                                    <option value="2">Land</option>
+                                    <option value="3">Single Family</option>
+                                  </select>
+                            </div>
+                            <div class="col col-md-3 col-12 banner_form_input">
+                                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                                    <option selected>Pakistan</option>
+                                    <option value="1">Indiia</option>
+                                    <option value="2">Bangladesh</option>
+                                    <option value="3">Japan</option>
+                                    <option value="3">Korea</option>
+                                  </select>
+                            </div>
+                              
+                            <div class="col col-md-3 col-12 banner_form_input">
+                                <button class="btn  btn-lg banner_form_btn" style="background-color: #FA831F; border-radius: none; color: white;">Find Now</button>
+                                
+                            </div>
+                              
+                          </div>
+                      </div>
+                </div>
+                <div class="col-md-6 col-12  banner_image" >
+                <img src="./img/banner.png" class="img-fluid"></div>
+            </div>
+        </div>
+
+            <!-- Banner 1 Closed  -->
+
+            <!-- Banner 2 Open  -->
+        <div class="container-fluid banner_container_2">
+            <div class="row">
+                <div class="col-md-6 col-12 banner_2_1" >
+                    <img src="./img/banner2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-12 banner_2_2" >
+                    <p class="banner_2_2_p1" style="color: #FA831F;">ABOUT US</p>
+                    <p class="banner_2_2_heading">Stay with us feel at home Your perfect stay awaits</p>
+                    <p class="banner_2_2_p2">Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential</p>
+
+                    <div class="banner_2_2_div">
+                        <div class="banner_2_2_logo">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <div class="banner_2_2_detail">
+                        <p class="banner_2_2_detail_p1">Your Dream Home Awaits</p>
+                        <p class="banner_2_2_detail_p2">Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties</p>
+                        </div>
+                    </div>
+
+                    <div class="banner_2_2_btn_container">
+                        <button class="btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner 2 Closed  -->
+
+    <!-- Banner 3 Open  -->
+
+    <div class="container-fluid banner_3">
+        <div class="banner_3_upper_heading">
+            <p>LATEST PROPERTY</p>
+        </div>
+        
+        <div class="row banner_3_details row-cols-md-2 row-cols-1 ">
+            <div class="banner_3_detail">
+                <div class="banner_3_middle_heading">
+                    <p>Prestige Propert Management <br> property for you</p>
+                </div>
+
+                <div class="banner_3_btn">
+                    <button class="btn ">VIEW MORE <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-3 banner_3_cards">
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="banner_3_card card">
+                    <img src="./img/c1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title card_title">$500.00 <span style="font-size: .9rem;">/per day</span></h5>
+                      <p class="card-text card_text">Paramount Investments Prestige Property Management</p>
+                      <p class="card-text card_text_address"><i class="fa-solid fa-location-dot"></i> 66 Broklyant, New York America</p>
+                      <hr class="card_row">
+                      
+    
+                    <div class="card_more_detail">
+                        <div class="card_rooms">
+                            <p><i class="fa-solid fa-bed"></i> 3 Beds</p>
+                            <p><i class="fa-solid fa-bath"></i> 3 Baths</p>
+                        </div>
+                        <div class="book">
+                            <a href="#">BOOK NOW <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="banner_3_card card">
+                    <img src="./img/c2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title card_title">$500.00 <span style="font-size: .9rem;">/per day</span></h5>
+                      <p class="card-text card_text">Paramount Investments Prestige Property Management</p>
+                      <p class="card-text card_text_address"><i class="fa-solid fa-location-dot"></i> 66 Broklyant, New York America</p>
+                      <hr class="card_row">
+                      
+    
+                    <div class="card_more_detail">
+                        <div class="card_rooms">
+                            <p><i class="fa-solid fa-bed"></i> 3 Beds</p>
+                            <p><i class="fa-solid fa-bath"></i> 3 Baths</p>
+                        </div>
+                        <div class="book">
+                            <a href="#">BOOK NOW <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="banner_3_card card">
+                    <img src="./img/c3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title card_title">$500.00 <span style="font-size: .9rem;">/per day</span></h5>
+                      <p class="card-text card_text">Paramount Investments Prestige Property Management</p>
+                      <p class="card-text card_text_address"><i class="fa-solid fa-location-dot"></i> 66 Broklyant, New York America</p>
+                      <hr class="card_row">
+                      
+    
+                    <div class="card_more_detail">
+                        <div class="card_rooms">
+                            <p><i class="fa-solid fa-bed"></i> 3 Beds</p>
+                            <p><i class="fa-solid fa-bath"></i> 3 Baths</p>
+                        </div>
+                        <div class="book">
+                            <a href="#">BOOK NOW <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="banner_3_card card">
+                    <img src="./img/c4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title card_title">$500.00 <span style="font-size: .9rem;">/per day</span></h5>
+                      <p class="card-text card_text">Paramount Investments Prestige Property Management</p>
+                      <p class="card-text card_text_address"><i class="fa-solid fa-location-dot"></i> 66 Broklyant, New York America</p>
+                      <hr class="card_row">
+                      
+    
+                    <div class="card_more_detail">
+                        <div class="card_rooms">
+                            <p><i class="fa-solid fa-bed"></i> 3 Beds</p>
+                            <p><i class="fa-solid fa-bath"></i> 3 Baths</p>
+                        </div>
+                        <div class="book">
+                            <a href="#">BOOK NOW <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="banner_3_card card">
+                    <img src="./img/c5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title card_title">$500.00 <span style="font-size: .9rem;">/per day</span></h5>
+                      <p class="card-text card_text">Paramount Investments Prestige Property Management</p>
+                      <p class="card-text card_text_address"><i class="fa-solid fa-location-dot"></i> 66 Broklyant, New York America</p>
+                      <hr class="card_row">
+                      
+    
+                    <div class="card_more_detail">
+                        <div class="card_rooms">
+                            <p><i class="fa-solid fa-bed"></i> 3 Beds</p>
+                            <p><i class="fa-solid fa-bath"></i> 3 Baths</p>
+                        </div>
+                        <div class="book">
+                            <a href="#">BOOK NOW <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="banner_3_card card">
+                    <img src="./img/c6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title card_title">$500.00 <span style="font-size: .9rem;">/per day</span></h5>
+                      <p class="card-text card_text">Paramount Investments Prestige Property Management</p>
+                      <p class="card-text card_text_address"><i class="fa-solid fa-location-dot"></i> 66 Broklyant, New York America</p>
+                      <hr class="card_row">
+                      
+    
+                    <div class="card_more_detail">
+                        <div class="card_rooms">
+                            <p><i class="fa-solid fa-bed"></i> 3 Beds</p>
+                            <p><i class="fa-solid fa-bath"></i> 3 Baths</p>
+                        </div>
+                        <div class="book">
+                            <a href="#">BOOK NOW <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            
+              
+          </div>
+
+          <div class="banner_3_view_btn_container">
+            <button class="btn banner_3_view_btn">SEE ALL LISTINGS <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- Banner 3 Closed  -->
+
+        <!-- Banner 4 Open  -->
+        <div class="container-fluid banner_4">
+            <div class="banner_4_headings">
+                <p class="banner_4_heading1">PROPERTY TYPE</p>
+                <p class="banner_4_heading2">Let us find the perfect  property for you</p>
+            </div>
+
+            <div class="banner_4_cards">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-12 banner_4_card">
+                        <div class="card banner_4_card_ind"  style="width: 20rem;">
+                            <!-- <img src="./img/" class="card-img-top" alt="..."> -->
+                            <i class="fa-solid fa-file card-img-top card_img"></i>
+                            <div class="card-body">
+                              <h5 class="card-title banner_4_card_title">Seamless Solutions Your Success</h5>
+                              <p class="card-text banner_4_card_text">Customer satisfaction is crucial for amohlodi business as it leads to customer loyalty loves positive word.</p>
+                            </div>
+                          </div>
+                    </div>
+                
+                    <div class="col-md-4 col-sm-6 col-12 banner_4_card">
+                        <div class="card banner_4_card_ind" style="width: 20rem;">
+                            <!-- <img src="./img/" class="card-img-top" alt="..."> -->
+                            <i class="fa-solid fa-file card-img-top card_img"></i>
+                            <div class="card-body">
+                              <h5 class="card-title banner_4_card_title">Proactive Realty Services</h5>
+                              <p class="card-text banner_4_card_text">Customer satisfaction is crucial for amohlodi business as it leads to customer loyalty loves positive word.</p>
+                            </div>
+                          </div>   
+                    </div>
+
+                
+                    <div class="col-md-4 col-sm-6 col-12 banner_4_card">
+                        <div class="card banner_4_card_ind" style="width: 20rem;">
+                            <!-- <img src="./img/" class="card-img-top" alt="..."> -->
+                            <i class="fa-solid fa-file card-img-top card_img"></i>
+                            <div class="card-body">
+                              <h5 class="card-title banner_4_card_title">Supreme Home Finders</h5>
+                              <p class="card-text banner_4_card_text">Customer satisfaction is crucial for amohlodi business as it leads to customer loyalty loves positive word</p>
+                            </div>
+                          </div>
+                     </div>
+
+            </div>
+                </div>
+            </div>
+
+
+            <!-- Banner 5 Open  -->
+
+            <div class="container-fluid banner_5">
+                <div class="row row-cols-md-4 row-cols-sm-2 row-cols-1 ">
+                    <div class="col relative banner_5_card" >
+                        <p>200</p>
+                        <div class="banner_5_card_p2"><p>Happy Patients</p></div>
+                    </div>
+                    
+                    <div class="col relative banner_5_card" >
+                        <p>20</p>
+                        <div class="banner_5_card_p2"><p>Saved Hearts</p></div>
+                    </div>
+                    
+                    <div class="col relative banner_5_card" >
+                        <p>10k</p>
+                        <div class="banner_5_card_p2"><p>Expert Doctors</p></div>
+                    </div>
+                    
+                    <div class="col relative banner_5_card" >
+                        <p>900</p>
+                        <div class="banner_5_card_p2"><p>SERENITY WORK</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Banner 5 Closed  -->
+
+            <!-- Banner 6 Open  -->
+
+            <div class="container-fluid banner_6">
+                <div class="row justify-content-end banner_6_row">
+                    <div class="col col-md-8 col-10 justify-content-end banner_6_form">
+
+                        <p class="fw-bold fs-1">Get a Quote</p>
+                    <form class="row g-3">
+                        
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Name</label>
+                          <input type="email" class="form-control input" id="inputEmail4">
+                        </div>
+                        
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Phone No</label>
+                          <input type="password" class="form-control input" id="inputPassword4">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control input" id="inputEmail4">
+                          </div>
+
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Address</label>
+                            <input type="password" class="form-control input" id="inputPassword4">
+                        </div>
+                        
+                        <div class="form-floating">
+                            <textarea class="form-control text_area" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                        </div>
+
+                        <div class="col-12">
+                          <button type="submit" class="btn banner_6_form_btn">Sign in</button>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Banner 6 Closed  -->
+
+            <!-- Banner 7 Open Footer  -->
+                <div class="container-fluid banner_7">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-12 footer_col">
+                            <img src="./img/footer-logo.png" class="footer_logo" alt="">
+                            <p class=" footer_logo_p1">It is a long established fact that a reader will be distracted</p>
+
+                            <p class=" footer_logo_p2">Lets Work Together</p>
+
+                            <div class="row row-cols-md-2 row-cols-1">
+                                <div class="col">
+                                    <pre  style="color: rgb(168, 168, 168); font-size: 1.1rem;"><i class="fa-solid fa-location-dot" style="color: #FA831F;"></i> Address</pre>
+                                    <p style="color: white; font-size: 1.1rem;">66 Broklyant, Karachi Pakistan</p>
+                                </div>
+                                
+                                <div class="col">
+                                    <pre  style="color: rgb(168, 168, 168); font-size: 1.1rem;"><i class="fa-solid fa-phone" style="color: #FA831F;"></i> Phone Number</pre>
+                                    <p style="color: white; font-size: 1.1rem;">+92 301 2865 213</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 footer_col">
+                            <p style="font-size: 1.7rem; font-weight: bold;">Services</p>
+                            <ul class="footer_2_ul">
+                                <a href="#" style="font-size: 1.2rem; text-decoration: none; color: white; margin-bottom: 15px;"><pre><i class="fa-solid fa-angles-right" style="color: #FA831F;"></i> Reliable Rentals</pre></a>
+                                <a href="#" style="font-size: 1.2rem; text-decoration: none; color: white; margin-bottom: 15px;"><pre><i class="fa-solid fa-angles-right" style="color: #FA831F;"></i> Golden Key Properties</pre></a>
+                                <a href="#" style="font-size: 1.2rem; text-decoration: none; color: white; margin-bottom: 15px;"><pre><i class="fa-solid fa-angles-right" style="color: #FA831F;"></i> Swift Home Sales</pre></a>
+                                <a href="#" style="font-size: 1.2rem; text-decoration: none; color: white; margin-bottom: 15px;"><pre><i class="fa-solid fa-angles-right" style="color: #FA831F;"></i> Elite Realty Services</pre></a>
+                                <a href="#" style="font-size: 1.2rem; text-decoration: none; color: white; margin-bottom: 15px;"><pre><i class="fa-solid fa-angles-right" style="color: #FA831F;"></i> Dream Property Solutions</pre></a>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 footer_col">
+                            <p style="font-size: 1.7rem; font-weight: bold;">Our Gallery</p>
+                            <p class=" footer_logo_p1">It is a long established fact that reader will be Elite Property</p>
+
+                            <div class="input-group mb-3 footer_form">
+                                <input type="text" class="form-control" placeholder="Email Here" aria-label="Email Here" aria-describedby="button-addon2">
+                                <button class="btn footer_mail_btn" type="button" id="button-addon2"><i class="fa-solid fa-paper-plane" style="font-size: 1.5rem;"></i></button>
+                            </div>
+
+                            <div class="col footer_icons">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-twitch"></i>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            <!-- Banner 7 Closed Footer -->
+
+            <!-- Banner 8 Open  -->
+                <div class="container-fluid banner_8">
+                    <div class="row">
+                        <div class="col col-md-6 col-12 banner_8_div1">
+                            <p class="banner_8_p1">© Arham Munir 2024 | All Rights Reserved.</p>
+                        </div>
+                        <div class="col col-md-6 col-12 banner_8_div2">
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            <!-- Banner 8 Closed  -->
+
+        </div>
+    </div>
+    <script src="h/imgttps://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
